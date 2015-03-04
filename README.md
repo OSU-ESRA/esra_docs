@@ -1,2 +1,3 @@
-# esra_docs
-Rocketry documentation
+OSU ESRA Documentation
+======================
+_Rocketry documentation_
