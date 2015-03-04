@@ -9,6 +9,17 @@ State Machine
 The rocket controller implements a simple state machine to track the flight and
 manage staging events. The following is a summary of the primary states:
 
+.. graphviz::
+
+   digraph foo {
+      rankdir="LR";
+
+      node[shape="dox", style=""];
+
+      DISARMED -> PRE_ARM -> ARMED -> FLIGHT -> APOGEE -> DROGUE_DESCENT ->
+      MAIN_DESCENT -> RECOVERY
+   }
+
 +------------------+----------------------------------------------------------+
 | State            | Description                                              |
 +==================+==========================================================+
